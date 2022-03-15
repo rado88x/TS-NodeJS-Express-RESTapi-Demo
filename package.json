@@ -1,0 +1,29 @@
+{
+  "name": "ts-nodejs-express-restapi-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rado88x/TS-NodeJS-Express-RESTapi-Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rado88x/TS-NodeJS-Express-RESTapi-Demo/issues"
+  },
+  "homepage": "https://github.com/rado88x/TS-NodeJS-Express-RESTapi-Demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15"
+  }
+}
